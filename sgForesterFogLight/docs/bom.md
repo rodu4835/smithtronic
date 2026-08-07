@@ -30,8 +30,14 @@ by full product title so you can find them (or an equivalent) yourself:
 | Role | Product | ~Price |
 |---|---|---|
 | Lights | **AKD Part Amber LED Pods, 3 Inch CREE LED Fog Lights 40W Spot** (sold as a 2-pack for trucks/UTV/ATV) | ~$33 / pair |
-| Connectors | **TOMALL 9005 9006 Male Socket Connector** retrofit wiring pigtail — [Amazon listing](https://www.amazon.com/TOMALL-Connector-Headlights-Retrofit-Extension/dp/B07CVH3R75) | ~$7 |
+| Connectors | **TOMALL 9005 9006 Male Socket Connector** retrofit wiring pigtail — [Amazon listing](https://www.amazon.com/dp/B07CVH3R75) | ~$7 |
 | Bolts | **iexcell M3 × 25 mm alloy steel 10.9 button head, black oxide finish** (100-pc kit) | ~$8 |
+| Heat-set inserts | **Yaocom M3 threaded inserts, M3 × D5 × L4, brass knurled** — [Amazon listing](https://www.amazon.com/dp/B0F43D2TTH) | ~$10 |
+
+Insert compatibility, measured from the actual part geometry: the retainer's
+insert pockets are **Ø4.2 mm** (opening from a Ø3.2 mm bolt-clearance bore on the
+engine-side face) — any short-series M3 heat-set insert around **5 mm OD × 4 mm
+long** fits; longer inserts will bottom out.
 
 A note on the bolts: the published spec said stainless; production batches used
 the black-oxide alloy kit above (black hardware disappears nicely against the
@@ -41,8 +47,8 @@ either works, pick your trade-off.
 ## Finishing supplies (production process — see [finishing guide](finishing.md))
 
 - Sandpaper: ~220 and 400 grit (400 used wet)
-- High-build (filler) primer, rattle can
-- UV-resistant **satin black** top coat, rattle can
+- **SEM 42003 Black High Build Primer** (16 oz aerosol) — [Amazon listing](https://www.amazon.com/dp/B000PL07B6)
+- **SEM 49143 Trim Black Ultra**, satin finish (UV-resistant, made for plastic/trim) — [Amazon listing](https://www.amazon.com/dp/B07NDM9SPB)
 
 ## OEM Subaru parts (not printed, required)
 

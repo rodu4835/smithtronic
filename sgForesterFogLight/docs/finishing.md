@@ -9,11 +9,13 @@ If you printed in ASA and like the printed texture, you can skip paint — ASA i
 UV-stable on its own. Painting is what makes the parts look injection-molded, and
 it matters even more if you printed in a less UV-stable material.
 
-## Supplies
+## Supplies (what production used)
 
 - Sandpaper: ~220 grit and 400 grit (use the 400 wet)
-- **High-build (filler) primer** — rattle can
-- **UV-resistant satin black** top coat — rattle can
+- **[SEM 42003 Black High Build Primer](https://www.amazon.com/dp/B000PL07B6)** —
+  automotive high-build/filler primer, 16 oz aerosol
+- **[SEM 49143 Trim Black Ultra](https://www.amazon.com/dp/B07NDM9SPB)** — satin
+  black trim paint, UV-resistant, formulated for plastics
 
 ## Process
 

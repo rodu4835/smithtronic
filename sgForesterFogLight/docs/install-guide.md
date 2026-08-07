@@ -45,7 +45,9 @@ needs for bracket assembly.
 - **Finish the housings** (sand → high-build primer → UV-resistant satin black)
   per the [finishing guide](finishing.md) — this is how production kits got their
   smooth factory look. Do it **before** installing inserts and hardware.
-- **Install the heat-set inserts:** each retainer takes 6 brass M3 inserts. Seat
+- **Install the heat-set inserts:** each retainer takes 6 brass M3 inserts
+  (short series, ~5 mm OD × 4 mm long — the pockets measure Ø4.2 mm; see the
+  [BOM](bom.md) for the exact product). Seat
   them into the hole bosses on the face that will point **toward the engine** — the
   retainers are embossed with orientation text ("Towards Engine") to keep this
   unambiguous. Press each insert flush with a soldering iron (~250 °C works well
