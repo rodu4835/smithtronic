@@ -21,10 +21,10 @@ sanitized copy.
   client/personal files.
 - **Naming: LEFT/RIGHT** (not Driver/Passenger) — works for RHD markets too. Docs
   define left = left side seated in the car; US driver side = left.
-- **Customer review photos**: use chrisshim dusk shot + one Joe Sosa shot only —
+- **Customer review photos**: use the chrisshim dusk shot + one Joe S. shot only —
   plates masked, real names out of filenames, credited as "community photo, used
-  with permission — not covered by the project license." Ashton Grogg photo skipped
-  (baked-in AI watermark).
+  with permission — not covered by the project license." The third customer's photo
+  skipped (baked-in AI-content watermark).
 - **Repo**: GitHub `rodu4835/smithtronic` (private during prep → public at release).
   Local clone `e:\Projects\smithtronic-oss` (can't be `smithtronic` — Windows
   case-insensitive collision with the private archive folder).
@@ -70,21 +70,47 @@ lost (another machine's Downloads folder).
 - Open v9.f3z in Fusion: confirm v9 housing = shipped geometry; export STEP to
   `models/cad/` for remixers.
 
-## CP3 — Documentation (planned)
+## CP3 — Documentation ✅ (2026-08-06)
 
-`docs/` + README: unified install guide (assembled + DIY merged), BOM with OEM part
-numbers (relay 82501AE03A, switch 83001SA000, M3 hardware, 9005 connector, light
-size limits), print settings per part. Source: CP1 archive + print-project configs.
+- Full verbatim text of both install guides recovered from the CP1 archive
+  (3-agent extraction; the site is a Framer export with content triplicated per
+  responsive breakpoint and double-encoded UTF-8 — both handled).
+- `docs/install-guide.md`: unified 13-step guide (DIY structure with assembled-kit
+  hardware notes folded in) + a **new step 0** covering what sold kits never
+  needed: printing and heat-set insert installation. 28 step photos recovered from
+  the archive into `docs/images/`.
+- `docs/bom.md`: printed parts, hardware (M3×25 bolts per production receipts),
+  OEM part numbers (relay 82501AE03A, switch 83001SA000), light size limits
+  (bracket ≤ 64.5 × 23 mm), 9005 wiring polarity (white +, black −).
+- `docs/print-settings.md`: per-part production settings verified directly from
+  the sanitized 3MF configs (not from memory or summaries).
+- **Correction found during CP3**: fitment is 2006–2008 Forester **Sports (SG
+  facelift)** only — earlier drafts said 2003–2008; README, BOM, and 3MF metadata
+  all corrected. (The 2003–05 opening is different; that variant was the excluded
+  third-party design.)
+- Historical context recovered: kits sold at $250 assembled / $150 DIY; SAE
+  non-certification disclaimer carried into the docs and listing.
 
-## CP4 — Images (planned)
+## CP4 — Images ✅ (2026-08-06)
 
-`gallery/` + `docs/images/`: curate, fix EXIF rotations, mask plates, strip
-identifying info; hero = ditMAIN; community photos per CP0 policy.
+- `gallery/` + `docs/images/` populated; EXIF orientation baked in; **all metadata
+  stripped** from published copies (no GPS was present in any source — verified).
+- Community photos: plates blurred (chrisshim's front plate; reinforced Joe S.'s
+  pre-blurred plate), filenames anonymized, `gallery/community/CREDITS.md` states
+  permission + license exclusion. AI-watermarked customer photo excluded.
+- Site carousel/beam shots and step photos re-checked visually for plates before
+  inclusion (own car's plate was already blurred in the site-era images).
 
-## CP5 — Package & license (planned)
+## CP5 — Package & license ✅ (2026-08-06)
 
-LICENSE.md, thingiverse/description.md (paste-ready listing), upload-checklist.md,
-final privacy pass over every shipped byte, repo → public.
+- `LICENSE.md` = CC BY-NC-SA 4.0 full legal code (fetched verbatim).
+- `thingiverse/description.md` = paste-ready title/tags/description;
+  `thingiverse/upload-checklist.md` = file + image order, both publish paths.
+- Final privacy scan over every shipped file: no usernames, account IDs, local
+  paths, customer surnames, or credentials (the one hit — customer names in this
+  file's own decision log — was scrubbed).
+- Remaining before public: Ron's Fusion v9 check (optional), CP6 publish, then
+  flip the GitHub repo public.
 
 ## CP6 — Publish (planned)
 
