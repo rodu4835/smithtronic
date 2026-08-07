@@ -47,6 +47,14 @@ the Fusion 360 source for remixing.
 **Fitment note:** Sports/facelift bumper only (2006-2008). The 2003-2005
 pre-facelift bumper has a different opening — these parts will not fit it.
 
+**What owners said (from the original product's public review page):**
+- "Used to run a light bar in the lower grill area but this kit made it look more
+  like a factory option." — Chris
+- "This is the best fog light design for the SG9 sports bumper... I had to order
+  another set for my automatic 07 FXT." — Joe
+- "These lights give the car a new character, sharper and more futuristic. They
+  blend beautifully too." — Maks
+
 **Legal:** not SAE certified; check your local regulations for auxiliary lighting.
 Install at your own risk — no liability assumed for vehicle, property, or personal
 damage. Community install photos used with their owners' permission (plates

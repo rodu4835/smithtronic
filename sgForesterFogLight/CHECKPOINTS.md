@@ -37,6 +37,16 @@ The only copies of the install instructions were live pages on smithtronic.com
 both install guides (assembled + DIY), both shop pages, homepage, 111 images.
 CP3 sources its content from this archive.
 
+**Extended 2026-08-06 (second pass):** full-site crawl — all 30 pages archived
+(reviews, projects index + 15 project posts, clients, contact, legal, and the
+third product page: vented headlight caps, $45). Pages Framer serves as JS shells
+were captured via headless-Chrome DOM dumps (`*_rendered.html`); 56 additional
+images downloaded. Notable recoveries: the full review page (4 five-star reviews
+— Ashton, Chris, Joe, Maks; quotes now in the Thingiverse description), Maks's
+foggy-forest photos (2 added to `gallery/community/`), Chris's washer-reservoir
+clearance note (now a "Known quirks" section in the install guide), and the
+headlight-caps product copy for the future release.
+
 ## CP2 — Geometry ✅ (2026-08-06)
 
 Canonical geometry = the meshes embedded in the **production print projects**

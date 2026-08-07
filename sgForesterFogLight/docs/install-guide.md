@@ -204,6 +204,13 @@ Back to step 5 for the second light.
 
 ![Beam pattern](images/step13_beam_pattern.jpg)
 
+## Known quirks
+
+- One owner reported having to slightly trim a tab on the washer-fluid reservoir
+  for clearance (possibly an isolated case on his car). If something behind the
+  bumper interferes on your side, look there first before modifying the printed
+  parts.
+
 ## Adjustment tips
 
 - **Vertical aim too loose:** tighten the bracket nut on the back of the housing

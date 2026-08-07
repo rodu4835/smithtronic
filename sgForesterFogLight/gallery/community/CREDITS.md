@@ -10,6 +10,8 @@ remain with their photographers. Do not reuse them outside this project page.
 | File | Credit |
 |---|---|
 | `community_install_dusk.jpg` | chrisshim — dusk install shot, lights on |
-| `community_install_front.jpg` | Joe S. — front view, DIY kit install |
+| `community_install_front.jpg` | Joe S. — front view, kit install |
+| `community_fog_closeup.jpg` | Maks — foggy-forest front quarter, lights on |
+| `community_fog_forest.jpg` | Maks — foggy-forest wide shot, lights on |
 
-Thank you both for supporting the project.
+Thank you all for supporting the project.

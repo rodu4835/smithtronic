@@ -19,6 +19,7 @@ Account: **SMITHtRONiC** · License selector: **CC BY-NC-SA** · Category: **Aut
 
 1. `gallery/hero_housings.jpg` — cover
 2. `gallery/community/community_install_dusk.jpg` — lights on (permission granted, plate masked)
+3. `gallery/community/community_fog_closeup.jpg` — Maks's foggy-forest shot (same permission basis)
 3. `gallery/installed_front_both.jpg`
 4. `gallery/installed_left.jpg`
 5. `gallery/beam_pattern_1.jpg`
