@@ -38,10 +38,18 @@ body below its divider).
 
 ## Publish paths
 
-- **API path:** create an app while logged in at thingiverse.com/developers →
-  run `publish_thing.py` with the App Token → it creates the thing, uploads
-  files/images, sets tags + license, publishes. The token is password-equivalent;
-  delete the app afterward.
+- **API path** (Thingiverse uses OAuth2; there is no non-browser flow):
+  1. Register an app at <https://www.thingiverse.com/apps/create> — type **Desktop**,
+     callback URL `https://www.smithtronic.com/`. Copy its **Client ID**.
+  2. `py -3 get_token.py url <CLIENT_ID>` → open the printed URL, click Authorize.
+  3. You land on the callback with `#access_token=...` in the address bar. Run
+     `py -3 get_token.py token "<pasted address>"` to extract and verify it.
+  4. `py -3 publish_thing.py --token <TOKEN> --dry-run`, then without `--dry-run`
+     to create the draft, then `--publish` to go live.
+
+  The token is password-equivalent — never commit it, and delete the app at
+  thingiverse.com/apps when publishing is done. Rate limit is 300 requests per
+  5 minutes; this upload uses about 20.
 - **Manual path:** thingiverse.com → Create → Upload a Thing → drag the files and
   images above in order → paste title/description/tags → set license + category →
   Publish.
