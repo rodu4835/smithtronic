@@ -12,8 +12,10 @@ Account: **SMITHtRONiC** · License selector: **CC BY-NC-SA** · Category: **Aut
 6. `models/3mf/plate_housings_ASA.3mf` — production plate, 45° + supports
 7. `models/3mf/plate_retainers_ASA.3mf` — production plate
 8. `models/3mf/all_parts_PLA.3mf` — test-fit only
-9. `thingiverse/install-guide.pdf` — offline copy of the full illustrated guide
-10. (skip the 57 MB Fusion `.f3z` — linked via GitHub in the description instead)
+9. `models/cad/SGForesterFogLight_FINAL.step` — CAD source for remixing (opens in any
+   CAD package; 4.8 MB)
+10. `thingiverse/install-guide.pdf` — offline copy of the full illustrated guide
+11. (skip the 56 MB Fusion `.f3z` — proprietary and large; linked via GitHub instead)
 
 ## Images (first upload becomes the cover)
 

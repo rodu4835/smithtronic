@@ -50,7 +50,12 @@ $150 DIY). Now open source: print it, build it, remix it.
 
 **Files:** print-ready STLs in [`models/stl/`](models/stl/) (verified watertight),
 complete Bambu Studio projects with proven settings in [`models/3mf/`](models/3mf/),
-Fusion 360 design source in [`models/cad/`](models/cad/) for remixing.
+and the CAD source in [`models/cad/`](models/cad/) — a **STEP** file that opens in any
+CAD package (Fusion, SolidWorks, FreeCAD, Onshape) plus the original Fusion 360 archive.
+
+**Want a different light?** The STEP is the real model, not a mesh — reshape the light
+pocket around whatever you're mounting instead of being held to the 64.5 × 23 mm
+bracket limit.
 
 **Get it on Thingiverse:** [SMITHtRONiC](https://www.thingiverse.com/SMITHtRONiC)
 

@@ -36,6 +36,7 @@ FILES = [
     'models/3mf/plate_housings_ASA.3mf',
     'models/3mf/plate_retainers_ASA.3mf',
     'models/3mf/all_parts_PLA.3mf',
+    'models/cad/SGForesterFogLight_FINAL.step',
     'thingiverse/install-guide.pdf',
 ]
 IMAGES = [  # first upload becomes the cover

@@ -48,6 +48,10 @@ polarity, drill-angle warnings, and beam-aiming procedure) lives in the GitHub
 repo: https://github.com/rodu4835/smithtronic (sgForesterFogLight) — along with
 the Fusion 360 source for remixing.
 
+**Remixing:** a STEP file of the real solid model is included, not just meshes — open
+it in Fusion, SolidWorks, FreeCAD or Onshape and reshape the light pocket around
+whatever light you want to mount. The Fusion 360 source is in the GitHub repo too.
+
 **Fitment note:** Sports/facelift bumper only (2006-2008). The 2003-2005
 pre-facelift bumper has a different opening — these parts will not fit it.
 
