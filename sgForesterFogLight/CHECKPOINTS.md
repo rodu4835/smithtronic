@@ -112,10 +112,25 @@ lost (another machine's Downloads folder).
 - Remaining before public: Ron's Fusion v9 check (optional), CP6 publish, then
   flip the GitHub repo public.
 
-## CP6 — Publish (planned)
+## CP6 — Publish (prepped 2026-08-06; waiting on Ron)
 
-Thingiverse API with Ron's app token (verified portal live 2026-08-06; API-first,
-manual upload as fallback). Optional: GitHub repo linked from the listing.
+Everything short of the token is done:
+
+- `thingiverse/publish_thing.py` — ready-to-run publisher (dry-run / draft /
+  publish modes). API contract confirmed against MakerBot's own open-source
+  client (`makerbot/thingiverse-js`), including the non-obvious S3 finalize step
+  (303 Location must be POSTed back with Bearer auth). Needs `pip install requests`.
+- `thingiverse/install-guide.pdf` — 10-page illustrated offline guide generated
+  from `docs/install-guide.md` (attached to the listing so builders don't need
+  GitHub).
+- All four release STLs verified **watertight manifold** (0 holes, 0 degenerate
+  triangles, 0 non-manifold edges) — safe to slice.
+- GitHub repo description + topics set.
+
+To publish: Ron creates an app at thingiverse.com/developers (logged in as
+SMITHtRONiC), passes the App Token → `--dry-run` first, then draft, verify the
+page, then `--publish`. Manual fallback: `upload-checklist.md`. Afterward: flip
+the GitHub repo public, delete the Thingiverse app/token.
 
 ## CP7 — Optional extras (parked)
 
