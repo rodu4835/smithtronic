@@ -136,9 +136,9 @@ lost (another machine's Downloads folder).
   to the listing so builders don't need GitHub.
 - All four release STLs verified **watertight manifold** (0 holes, 0 degenerate
   triangles, 0 non-manifold edges) — safe to slice.
-- Staged as draft thing **7392906**, fully uploaded (10 files, 11 images), and
-  published at the same go-live that made this repo public — after the full
-  pre-release review gate (CP9).
+- Staged as draft thing **7392906**, fully uploaded and review-gated (CP9). The
+  repo and website went live first; the Thingiverse listing followed as soon as
+  the platform's new-account publishing window allowed.
 
 ## CP9 — Pre-release review gate (2026-08-07)
 
