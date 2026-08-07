@@ -12,7 +12,7 @@
 
 Amber auxiliary light housings that flush-mount into the fog light openings of the
 **2006-2008 Subaru Forester Sports bumper (SG facelift)** — a clean, factory-look
-install with adjustable beam aim. Designed and sold as a kit by SMITHTRONIC in
+install with adjustable beam aim. Designed and street-proven by SMITHTRONIC in
 2024-2025; now open source.
 
 **What you print (all 4 parts, ASA strongly recommended):**
@@ -52,7 +52,7 @@ use 2.3 or newer.
   (https://www.amazon.com/dp/B00IW33M5W) + fog light switch 83001SA000
   (https://www.subaruparts.com/oem-parts/subaru-fog-lamp-switch-83001sa000) —
   both plug into the car's existing harness; the wiring is already there
-- The lights that shipped in the kit: AKD 3-inch 40W amber LED spot pods, sold as
+- The lights I used: AKD 3-inch 40W amber LED spot pods, sold as
   a pair (https://www.amazon.com/dp/B09MVVQMC2). Or bring your own — anything on
   a single through-bolt bracket up to **64.5 x 23 mm** fits
 - Two 9005 male connectors, one per light — the TOMALL pigtails I used:

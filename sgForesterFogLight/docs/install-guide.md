@@ -40,11 +40,11 @@ connectors (one per light).
 screwdriver · skinny marking tool (pen or scribe) · plus whatever your light kit
 needs for bracket assembly.
 
-## 0. Prepare your printed parts *(new for self-printers — sold kits came assembled)*
+## 0. Prepare your printed parts
 
 - Print the four parts per the [print settings](print-settings.md).
 - **Finish the housings** (sand → high-build primer → UV-resistant satin black)
-  per the [finishing guide](finishing.md) — this is how production kits got their
+  per the [finishing guide](finishing.md) — this is how the parts get their
   smooth factory look. Do it **before** installing inserts and hardware.
 - **Install the heat-set inserts:** each retainer takes 6 brass M3 inserts
   (short series, ~5 mm OD × 4 mm long — the pockets measure Ø4.2 mm; see the

@@ -5,8 +5,8 @@
 designed specifically for the Forester SG Sports model — it flush-mounts into the
 factory fog light openings and wires into the car's own fog light circuit.
 
-Designed, sold, and street-proven by SMITHTRONIC in 2024–2025 ($250 assembled /
-$150 DIY). Now open source: print it, build it, remix it.
+Designed and street-proven by SMITHTRONIC in 2024–2025. Now open source: print
+it, build it, remix it.
 
 ![Assembled housings](gallery/hero_housings.jpg)
 
@@ -59,7 +59,8 @@ CAD package (Fusion, SolidWorks, FreeCAD, Onshape) plus the original Fusion 360 
 pocket around whatever you're mounting instead of being held to the 64.5 × 23 mm
 bracket limit.
 
-**Get it on Thingiverse:** [SMITHtRONiC](https://www.thingiverse.com/SMITHtRONiC)
+**Get it on Thingiverse:** [thing:7392906](https://www.thingiverse.com/thing:7392906)
+— or browse everything by [SMITHtRONiC](https://www.thingiverse.com/SMITHtRONiC)
 
 ## FAQ highlights (from the original product page)
 
