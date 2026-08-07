@@ -41,19 +41,25 @@ Text settings: housings 0.08 mm / 4 walls / 60% infill (Rectilinear) / tilted 45
 90-100C, manual snug supports. Projects were saved with Bambu Studio 2.2-2.3 —
 use 2.3 or newer.
 
-**Hardware + OEM parts you'll need:**
+**Hardware + OEM parts you'll need (the exact products I used, with links):**
 - 12x brass M3 heat-set inserts — size matters: short series, M3 x D5 x L4 (the
-  pockets measure 4.2 mm; common longer inserts bottom out — exact product in the
-  repo BOM)
-- 12x M3 x 25 mm button-head bolts (stainless or black-oxide — see BOM)
+  pockets measure 4.2 mm; common longer inserts bottom out). The ones I used:
+  https://www.amazon.com/dp/B0F43D2TTH
+- 12x M3 x 25 mm button-head bolts. The kits shipped black-oxide alloy
+  (https://www.amazon.com/dp/B08R375CSJ); a 304 stainless equivalent resists road
+  spray better (https://www.amazon.com/dp/B08H2GZYKQ) — either works
 - Subaru fog light relay 82501AE03A
   (https://www.amazon.com/dp/B00IW33M5W) + fog light switch 83001SA000
   (https://www.subaruparts.com/oem-parts/subaru-fog-lamp-switch-83001sa000) —
   both plug into the car's existing harness; the wiring is already there
-- Your choice of lights: anything on a single through-bolt bracket up to
-  **64.5 x 23 mm**. The 3-inch amber LED spot pods that shipped in the kit:
-  https://www.amazon.com/dp/B09MVVQMC2 — plus two 9005 male connectors, one per
-  light (harness polarity: white = +, black = -)
+- The lights that shipped in the kit: AKD 3-inch 40W amber LED spot pods, sold as
+  a pair (https://www.amazon.com/dp/B09MVVQMC2). Or bring your own — anything on
+  a single through-bolt bracket up to **64.5 x 23 mm** fits
+- Two 9005 male connectors, one per light — the TOMALL pigtails I used:
+  https://www.amazon.com/dp/B07CVH3R75 (harness polarity: white = +, black = -)
+- Finishing (optional but it's the factory look): SEM high-build primer
+  (https://www.amazon.com/dp/B000PL07B6) + SEM Trim Black satin
+  (https://www.amazon.com/dp/B07NDM9SPB)
 
 **Install:** wire the lights to 9005 connectors, drop the relay and factory switch
 into the cabin panel, pop the bumper's fog covers, drill 6x 4 mm holes per side
