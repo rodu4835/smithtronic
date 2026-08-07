@@ -29,9 +29,9 @@ by full product title so you can find them (or an equivalent) yourself:
 
 | Role | Product | ~Price |
 |---|---|---|
-| Lights | **AKD Part Amber LED Pods, 3 Inch CREE LED Fog Lights 40W Spot** (sold as a 2-pack for trucks/UTV/ATV) | ~$33 / pair |
+| Lights | **AKD Part Amber LED Pods, 3 Inch CREE LED Fog Lights 40W Spot** — [Amazon listing](https://www.amazon.com/dp/B09MVVQMC2) (sold as a 2-pack) | ~$33 / pair |
 | Connectors | **TOMALL 9005 9006 Male Socket Connector** retrofit wiring pigtail — [Amazon listing](https://www.amazon.com/dp/B07CVH3R75) | ~$7 |
-| Bolts | **iexcell M3 × 25 mm alloy steel 10.9 button head, black oxide finish** (100-pc kit) | ~$8 |
+| Bolts | **iexcell M3 × 25 mm alloy steel 10.9 button head, black oxide finish** (100-pc kit) — [Amazon listing](https://www.amazon.com/dp/B08R375CSJ) | ~$8 |
 | Heat-set inserts | **Yaocom M3 threaded inserts, M3 × D5 × L4, brass knurled** — [Amazon listing](https://www.amazon.com/dp/B0F43D2TTH) | ~$10 |
 
 Insert compatibility, measured from the actual part geometry: the retainer's
@@ -42,7 +42,8 @@ long** fits; longer inserts will bottom out.
 A note on the bolts: the published spec said stainless; production batches used
 the black-oxide alloy kit above (black hardware disappears nicely against the
 black parts). Black oxide is not as corrosion-proof as stainless in road spray —
-either works, pick your trade-off.
+either works. The stainless equivalent is
+[M3 × 25 mm 304 stainless button head](https://www.amazon.com/dp/B08H2GZYKQ).
 
 ## Finishing supplies (production process — see [finishing guide](finishing.md))
 
