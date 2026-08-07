@@ -17,19 +17,20 @@ Account: **SMITHtRONiC** · License selector: **CC BY-NC-SA** · Category: **Aut
 10. `thingiverse/install-guide.pdf` — offline copy of the full illustrated guide
 11. (skip the 56 MB Fusion `.f3z` — proprietary and large; linked via GitHub instead)
 
-## Images (first upload becomes the cover)
+## Images (first upload becomes the cover; curated set, 2026-08-07)
 
-1. `gallery/hero_housings.jpg` — cover
-2. `gallery/community/community_install_dusk.jpg` — lights on (permission granted, plate masked)
-3. `gallery/community/community_fog_closeup.jpg` — Maks's foggy-forest shot (same permission basis)
-4. `gallery/installed_front_both.jpg`
-5. `gallery/installed_left.jpg`
-6. `gallery/beam_pattern_1.jpg`
-7. `gallery/beam_pattern_2.jpg`
-8. `gallery/kit_product.png`
-9. `gallery/cad_render_front.png`
-10. `gallery/before_stock_bumper.jpg` — "before" comparison
-11. `gallery/community/community_install_front.jpg` (permission granted)
+1. `gallery/community/community_install_dusk.jpg` — COVER: lights blazing at dusk (Chris S., plate masked)
+2. `gallery/closeup_installed.jpg` — pod seated in the bezel, the best product close-up
+3. `gallery/installed_front_both.jpg` — both pods installed, straight-on
+4. `gallery/community/community_daylight_lit.jpg` — full car, both pods lit in daylight (Chris S.)
+5. `gallery/hero_housings.jpg` — the bare printed housings (what you print)
+6. `gallery/community/community_install_lit_closeup.jpg` — pod glowing mid-install (Chris S.)
+7. `gallery/installed_quarter.jpg` — front 3/4 with pod, high resolution
+8. `gallery/community/community_pod_lit.jpg` — pod lit on the blue car (Joe S.)
+9. `gallery/beam_pattern_2.jpg` — real-world beam on the road
+10. `gallery/beam_pattern_1.jpg` — wall aiming test (matches guide step 13)
+11. `gallery/community/community_forest_symmetric.jpg` — foggy forest, straight-on (Maks)
+12. `gallery/cad_render_front.png` — CAD, the remix teaser
 
 ## Listing text
 

@@ -40,18 +40,19 @@ FILES = [
     'models/cad/SGForesterFogLight_FINAL.step',
     'thingiverse/install-guide.pdf',
 ]
-IMAGES = [  # first upload becomes the cover
-    'gallery/hero_housings.jpg',
+IMAGES = [  # first upload becomes the cover; curated 2026-08-07
     'gallery/community/community_install_dusk.jpg',
-    'gallery/community/community_fog_closeup.jpg',
+    'gallery/closeup_installed.jpg',
     'gallery/installed_front_both.jpg',
-    'gallery/installed_left.jpg',
-    'gallery/beam_pattern_1.jpg',
+    'gallery/community/community_daylight_lit.jpg',
+    'gallery/hero_housings.jpg',
+    'gallery/community/community_install_lit_closeup.jpg',
+    'gallery/installed_quarter.jpg',
+    'gallery/community/community_pod_lit.jpg',
     'gallery/beam_pattern_2.jpg',
-    'gallery/kit_product.png',
+    'gallery/beam_pattern_1.jpg',
+    'gallery/community/community_forest_symmetric.jpg',
     'gallery/cad_render_front.png',
-    'gallery/before_stock_bumper.jpg',
-    'gallery/community/community_install_front.jpg',
 ]
 
 def description_text():
