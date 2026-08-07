@@ -19,8 +19,20 @@ preparing self-printed parts.
 See the [bill of materials](bom.md) for the complete list with part numbers and the
 [print settings](print-settings.md) for producing the four printed parts. In short:
 the four printed parts, 12 brass M3 heat-set inserts, 12 M3 stainless button-head
-bolts, the OEM Subaru fog light relay (82501AE03A) and switch (83001SA000), a pair
-of lights meeting the size limits below, and a 9005 male connector.
+bolts, the OEM Subaru fog light relay and switch, a pair of lights meeting the size
+limits in step 2, and a 9005 male connector.
+
+**Factory relay — Subaru 82501AE03A (not printed, required):**
+
+![Fog light relay](images/parts_relay.jpg)
+
+**Factory fog light switch — Subaru 83001SA000 (not printed, required):**
+
+![Fog light switch](images/parts_fog_switch.webp)
+
+**The printed kit (housings + retainers + hardware):**
+
+![The kit](images/parts_diy_kit.png)
 
 **Tools:** wire cutters/strippers · soldering iron and solder · heat shrink ·
 2.5 mm Allen key · 4 mm drill bit and drill · bumper clip removal tool or flathead
@@ -45,12 +57,13 @@ needs for bracket assembly.
 
 ## 2. Prepare your light assembly
 
-![Bracket dimension limits](images/bracket_dimensions.png)
-
 **Light size limits** — the housing accepts lights that mount with a **single
 through-bolt bracket**. For full vertical articulation without the bracket corners
 hitting the cutout: bracket **height ≤ 64.5 mm, width ≤ 23 mm**. A narrower bracket
 at maximum height can still interfere at the extremes of rotation — check yours.
+
+![Bracket dimension limits](images/bracket_dimensions.png)
+
 (Production kits used 3-inch dual-LED amber spot pods — spot style keeps the light
 vertical, tight to the body, and lets articulation put the beam where a flood
 pattern would.)
@@ -72,17 +85,17 @@ pattern would.)
 
 ## 3. Install the relay
 
-![Fuse panel door](images/step03_fuse_panel_door.jpg)
-![Relay position](images/step03_relay_position.png)
-
 - Inside the vehicle, remove the small door leading to the fuse panel.
 - The relay slot is the **third position from the bottom** in the relay column to
   the right of the fuse panel.
 - Insert the relay until it **clicks** — the tabs only line up one way.
 
-## 4. Install the factory fog light switch
+![Fuse panel door](images/step03_fuse_panel_door.jpg)
+![Fuse panel](images/step03_fuse_panel.jpg)
+![Relay position](images/step03_relay_position.png)
+![Relay panel](images/step03_relay_panel.jpg)
 
-![Switch panel](images/step04_switch_panel.jpg)
+## 4. Install the factory fog light switch
 
 - Just above the fuse panel, find the switch panel with blank covers.
 - Reach through the fuse panel hole and **pop out the blank cover** (clips top and
@@ -91,32 +104,46 @@ pattern would.)
   the correct one fits the switch), route it through, plug it into the switch, and
   seat the switch (**indicator light up**).
 
-## 5. Prepare the bumper
+![Switch connection](images/step04_switch_connector.jpg)
+![Switch panel](images/step04_switch_panel.jpg)
 
-![Splash guard](images/step05_splash_guard_1.jpg)
+## 5. Prepare the bumper
 
 - Remove the bumper clips under the front edge and pry the dust guard open —
   gently, the clips break easily.
 - Press the clips on the factory fog light hole cover and remove it.
 
+![Splash guard clips](images/step05_splash_guard_1.jpg)
+![Splash guard open](images/step05_splash_guard_2.jpg)
+![Fog panel and connector](images/step05_fog_panel_connector.jpg)
+
 ## 6. Test before you drill
 
-![Plug in the light](images/step06_plug_light_1.jpg)
-
 - Plug the light into the factory fog light harness connector (one correct
-  orientation only), rest it somewhere safe, turn on the ignition with headlights
-  on, and press the fog switch.
+  orientation only).
+
+![Plug in the light](images/step06_plug_light_1.jpg)
+![Connector detail](images/step06_plug_light_2.jpg)
+
+- Rest the light somewhere safe, turn on the ignition with headlights on, and
+  press the fog switch.
 - If it doesn't light: re-check the relay, the switch seating, the harness
   connector, and your soldered polarity.
 
 ## 7. Mount the housings
 
-![Fit and mark](images/step07_fit_mark_1.jpg)
-![Drill the holes](images/step07_drill.jpg)
-
 - Press the housing into the fog light hole until snug.
 - Use the housing as a template to **mark the 6 bolt holes**, then **remove it**
-  and unplug the light before drilling.
+  before drilling.
+
+![Fit and mark](images/step07_fit_mark_1.jpg)
+![Marking the holes](images/step07_fit_mark_2.jpg)
+
+- Unplug the light connector from the factory harness and set the housing
+  assembly safely aside.
+
+![Disconnect](images/step07_disconnect.jpg)
+
 - Drill **4 mm** holes — keep the drill **parallel to the housing's mounting
   direction**, not perpendicular to the bumper's curved skin, or the retainer
   holes won't line up.
@@ -124,49 +151,58 @@ pattern would.)
   retainer clamps the housing against the back of the bumper — the bolt threads
   never grip the bumper itself.
 
-## 8. Prepare the retainer
+![Drill the holes](images/step07_drill.jpg)
 
-![Wire through the retainer](images/step08_wire_retainer.jpg)
+## 8. Prepare the retainer
 
 - Slip the wire through the hole in the bumper, then through the matching-side
   retainer — **heat-set inserts (and the "Towards Engine" embossing) facing the
   engine** — before plugging the connector back in.
 
-## 9. Replace the housing
+![Wire through the retainer](images/step08_wire_retainer.jpg)
 
-![Check alignment](images/step09_alignment_check.jpg)
+## 9. Replace the housing
 
 - Press the housing fully back into its hole and slip the retainer over its rear,
   inside the bumper.
 - Check hole alignment — a flashlight behind the retainer makes this easy.
 
-## 10. Secure the housing
+![Retainer in place](images/step09_retainer_place.jpg)
+![Check alignment](images/step09_alignment_check.jpg)
 
-![Bolts into the retainer](images/step10_bolts.jpg)
+## 10. Secure the housing
 
 - Insert the **6 M3 bolts** through the housing into the retainer, one hand inside
   the bumper guiding the retainer, the other driving the 2.5 mm Allen key.
-- Get **all bolts threaded before fully tightening**, then tighten in a **cross
-  pattern**, snug only — overtightening strips the inserts or cracks the housing.
+- Get **all bolts threaded before fully tightening.**
+
+![Bolts into the retainer](images/step10_bolts.jpg)
+
+- Tighten in a **cross pattern**, snug only — overtightening strips the inserts or
+  cracks the housing.
 
 ## 11. Reconnect and close up
 
 - Plug the light connector back into the factory harness.
 - Reattach the splash panel with the bumper clips.
 
+![Reconnected](images/step11_reconnect.jpg)
+
 ## 12. Repeat for the other side
 
 Back to step 5 for the second light.
 
-![Both lights installed](images/step12_right_installed.jpg)
+![Right side installed](images/step12_right_installed.jpg)
+![Both lights, front view](../gallery/installed_front_both.jpg)
+![Left side installed](images/step12_left_installed.jpg)
 
 ## 13. Aim the beam
-
-![Beam pattern](images/step13_beam_pattern.jpg)
 
 - Park on a flat surface ~**25 feet** from a wall, lights on.
 - **Vertical:** top edge of the amber beam aligned with the **bottom edge of your
   headlight beam**. **Horizontal:** slightly toward center, or to taste.
+
+![Beam pattern](images/step13_beam_pattern.jpg)
 
 ## Adjustment tips
 
