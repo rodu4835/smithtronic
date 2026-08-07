@@ -5,8 +5,9 @@ Usage:
     py -3 publish_thing.py --token <APP_TOKEN>             # create draft + upload everything
     py -3 publish_thing.py --token <APP_TOKEN> --publish   # ...and publish it live
 
-The token comes from thingiverse.com/developers (create an app while logged in,
-copy its App Token). Requires: pip install requests
+The token is a USER OAuth token obtained via the browser implicit flow — see
+get_token.py. (The read-only "App Token" shown on the app page cannot publish.)
+Requires: pip install requests
 
 API contract (confirmed against makerbot/thingiverse-js): Bearer auth against
 https://api.thingiverse.com; file upload is a three-step dance —
@@ -42,6 +43,7 @@ FILES = [
 IMAGES = [  # first upload becomes the cover
     'gallery/hero_housings.jpg',
     'gallery/community/community_install_dusk.jpg',
+    'gallery/community/community_fog_closeup.jpg',
     'gallery/installed_front_both.jpg',
     'gallery/installed_left.jpg',
     'gallery/beam_pattern_1.jpg',

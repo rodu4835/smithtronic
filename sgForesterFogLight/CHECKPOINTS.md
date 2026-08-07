@@ -12,28 +12,28 @@ sanitized copy.
 
 ## CP0 — Decisions (2026-08-06) ✅
 
-- **License: CC BY-NC-SA 4.0.** Attribution name: SMITHTRONIC *(open: confirm Ron
-  wants brand-only attribution, or brand + personal name)*.
+- **License: CC BY-NC-SA 4.0**, attributed to SMITHTRONIC (brand attribution —
+  see LICENSE.md).
 - **Thingiverse account: `SMITHtRONiC`**. Contact stays ron@smithtronic.com.
-- **Scope: the SG fog light kit only.** Excluded: `fogLightHousing_0305` (third-party
-  design, listing "6141020" — not Ron's, never publish), kit QR cards (packaging,
-  dead store URLs), vented headlight cap (separate future project), all business/
-  client/personal files.
+- **Scope: the SG fog light kit only.** Excluded: a third-party 2003–05 variant
+  that isn't SMITHTRONIC's design, the kit QR cards (packaging pointing at the
+  retired store), the vented headlight cap (a separate future release), and all
+  business/client/personal files.
 - **Naming: LEFT/RIGHT** (not Driver/Passenger) — works for RHD markets too. Docs
   define left = left side seated in the car; US driver side = left.
-- **Customer review photos**: use the chrisshim dusk shot + one Joe S. shot only —
-  plates masked, real names out of filenames, credited as "community photo, used
-  with permission — not covered by the project license." The third customer's photo
-  skipped (baked-in AI-content watermark).
+- **Customer review photos**: two community shots only (Chris S.'s dusk photo and
+  one of Joe S.'s) — plates masked, filenames anonymized, credited as "community
+  photo, used with permission — not covered by the project license." A third
+  customer's photo was skipped (baked-in AI-content watermark).
 - **Repo**: GitHub `rodu4835/smithtronic` (private during prep → public at release).
   Local clone `e:\Projects\smithtronic-oss` (can't be `smithtronic` — Windows
   case-insensitive collision with the private archive folder).
 
 ## CP1 — Preserve ✅ (2026-08-06)
 
-The only copies of the install instructions were live pages on smithtronic.com
-(site no longer paid for). Archived to
-`e:\Projects\SMITHTRONIC\Products\fogLight\siteArchive\`:
+The only copies of the install instructions were live pages on the original
+hosted smithtronic.com (since migrated to static hosting; the domain is retained
+and the guide URLs are unchanged). Archived to a private local archive:
 both install guides (assembled + DIY), both shop pages, homepage, 111 images.
 CP3 sources its content from this archive.
 
@@ -105,7 +105,7 @@ lost (another machine's Downloads folder).
 
 - `gallery/` + `docs/images/` populated; EXIF orientation baked in; **all metadata
   stripped** from published copies (no GPS was present in any source — verified).
-- Community photos: plates blurred (chrisshim's front plate; reinforced Joe S.'s
+- Community photos: plates blurred (Chris S.'s front plate; reinforced Joe S.'s
   pre-blurred plate), filenames anonymized, `gallery/community/CREDITS.md` states
   permission + license exclusion. AI-watermarked customer photo excluded.
 - Site carousel/beam shots and step photos re-checked visually for plates before
@@ -116,31 +116,41 @@ lost (another machine's Downloads folder).
 - `LICENSE.md` = CC BY-NC-SA 4.0 full legal code (fetched verbatim).
 - `thingiverse/description.md` = paste-ready title/tags/description;
   `thingiverse/upload-checklist.md` = file + image order, both publish paths.
-- Final privacy scan over every shipped file: no usernames, account IDs, local
-  paths, customer surnames, or credentials (the one hit — customer names in this
-  file's own decision log — was scrubbed).
-- Remaining before public: Ron's Fusion v9 check (optional), CP6 publish, then
-  flip the GitHub repo public.
+- Final privacy scan over every shipped file: no customer surnames, account IDs,
+  or credentials. Customer **first names** are retained deliberately — they match
+  the public attributions on the original review page. References to the private
+  local archive appear in this log by design; the archive itself is not published.
+- A later full review (2026-08-07, pre-release gate) re-audited every page and
+  file and tightened this log's own wording — see CP9.
 
-## CP6 — Publish (prepped 2026-08-06; waiting on Ron)
+## CP6 — Publish ✅ (2026-08-07)
 
-Everything short of the token is done:
-
-- `thingiverse/publish_thing.py` — ready-to-run publisher (dry-run / draft /
-  publish modes). API contract confirmed against MakerBot's own open-source
-  client (`makerbot/thingiverse-js`), including the non-obvious S3 finalize step
-  (303 Location must be POSTed back with Bearer auth). Needs `pip install requests`.
-- `thingiverse/install-guide.pdf` — 10-page illustrated offline guide generated
-  from `docs/install-guide.md` (attached to the listing so builders don't need
-  GitHub).
+- `thingiverse/publish_thing.py` — the publisher used for the release (dry-run /
+  draft / publish modes). The upload handshake was learned from the live API, not
+  the docs: the storage endpoint answers `200 {"ok":"ok"}` and the finalize URL
+  arrives in `fields.success_action_redirect` (MakerBot's own client library
+  expects a 303 Location and is wrong). Auth is a user OAuth token via the
+  implicit browser flow (`get_token.py`) — the read-only "App Token" shown on the
+  app page cannot publish.
+- `thingiverse/install-guide.pdf` — illustrated offline install guide, attached
+  to the listing so builders don't need GitHub.
 - All four release STLs verified **watertight manifold** (0 holes, 0 degenerate
   triangles, 0 non-manifold edges) — safe to slice.
-- GitHub repo description + topics set.
+- Staged as draft thing **7392906**, fully uploaded (10 files, 11 images), and
+  published at the same go-live that made this repo public — after the full
+  pre-release review gate (CP9).
 
-To publish: Ron creates an app at thingiverse.com/developers (logged in as
-SMITHtRONiC), passes the App Token → `--dry-run` first, then draft, verify the
-page, then `--publish`. Manual fallback: `upload-checklist.md`. Afterward: flip
-the GitHub repo public, delete the Thingiverse app/token.
+## CP9 — Pre-release review gate (2026-08-07)
+
+Before anything went public, a full review re-read every site page, repo file,
+and the listing as a skeptical builder, then adversarially verified each finding:
+85 raw findings → 40 confirmed (3 blockers). Highlights fixed: local `file:///`
+links baked into the listing PDF; a "three days of machine time" claim that
+contradicted its own hour breakdown; the install guide's shopping list
+understating the bolt length and connector count; a Bambu Studio version claim
+wrong for the housings plate; orphaned instructional images (JDM fuse map,
+connector orientation, retainer view) restored to the guide; attribution and
+this log's own privacy wording tightened.
 
 ## CP7 — Optional extras (parked)
 

@@ -10,7 +10,7 @@ Open-source home of SMITHTRONIC designs. SMITHTRONIC was a small design and
 
 | Project | Status | License |
 |---|---|---|
-| [SG Forester Fog Light Kit](sgForesterFogLight/) | preparing release | CC BY-NC-SA 4.0 |
+| [SG Forester Fog Light Kit](sgForesterFogLight/) | released — [on Thingiverse](https://www.thingiverse.com/thing:7392906) | CC BY-NC-SA 4.0 |
 
 Each project folder carries its own license file.
 

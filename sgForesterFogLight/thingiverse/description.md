@@ -25,29 +25,44 @@ Production housings were finished the old-fashioned way — sanded, high-build
 primer, UV-resistant satin black — which is where the factory look comes from;
 the full process is in the repo's finishing guide.
 
-The Bambu Studio project files (.3mf) carry the exact production print settings,
-orientation, and painted supports. Text version: housings 0.08 mm / 4 walls / 60%
-infill / tilted 45°; retainers 0.16 mm / 100% infill; ASA at 260C, bed 90-100C,
-manual snug supports, 10 mm brim. PLA project included for test fits only — use
-ASA (or similar UV/heat-stable material) for the real thing.
+**Which file do I download?**
+- all_parts_ASA.3mf — start here (Bambu Studio project: all four parts, full
+  production settings, painted supports)
+- plate_housings_ASA.3mf / plate_retainers_ASA.3mf — the exact production plates,
+  if you'd rather print each pair as its own job
+- housing_*.stl / retainer_*.stl — raw meshes for any other slicer (use the text
+  settings below; tilt the housings 45 degrees and support the flange)
+- all_parts_PLA.3mf — cheap test fit only, not for the installed parts
+- SGForesterFogLight_FINAL.step — CAD source for remixing
+- install-guide.pdf — the full illustrated install guide, offline copy
+
+Text settings: housings 0.08 mm / 4 walls / 60% infill (Rectilinear) / tilted 45°
+/ 10 mm brim; retainers 0.16 mm / 100% infill / 5 mm brim; ASA at 260C, bed
+90-100C, manual snug supports. Projects were saved with Bambu Studio 2.2-2.3 —
+use 2.3 or newer.
 
 **Hardware + OEM parts you'll need:**
-- 12x brass M3 heat-set inserts, 12x M3x25 stainless button-head bolts
-- Subaru fog light relay **82501AE03A** + fog light switch **83001SA000** (both
-  plug into the car's existing harness — the wiring is already there)
+- 12x brass M3 heat-set inserts — size matters: short series, M3 x D5 x L4 (the
+  pockets measure 4.2 mm; common longer inserts bottom out — exact product in the
+  repo BOM)
+- 12x M3 x 25 mm button-head bolts (stainless or black-oxide — see BOM)
+- Subaru fog light relay 82501AE03A
+  (https://www.amazon.com/dp/B00IW33M5W) + fog light switch 83001SA000
+  (https://www.subaruparts.com/oem-parts/subaru-fog-lamp-switch-83001sa000) —
+  both plug into the car's existing harness; the wiring is already there
 - Your choice of lights: anything on a single through-bolt bracket up to
-  **64.5 x 23 mm** (3-inch amber LED spot pods fill the opening perfectly and were
-  what shipped in the original kit), plus 9005 male connectors (harness polarity:
-  white = +, black = -)
+  **64.5 x 23 mm**. The 3-inch amber LED spot pods that shipped in the kit:
+  https://www.amazon.com/dp/B09MVVQMC2 — plus two 9005 male connectors, one per
+  light (harness polarity: white = +, black = -)
 
 **Install:** wire the lights to 9005 connectors, drop the relay and factory switch
-into the cabin panel, pop the bumper's fog covers, drill 6x 4 mm holes using the
-housing as a template, and clamp everything down with the retainer from behind.
-2-3 hours with hand tools.
+into the cabin panel, pop the bumper's fog covers, drill 6x 4 mm holes per side
+using the housing as a template, and clamp everything down with the retainer from
+behind. 2-3 hours with hand tools.
 
-**The full illustrated install guide** — 13 steps with photos for every one, wiring
-polarity, the drill-angle warning that trips people up, and the beam-aiming
-procedure — is easiest to follow on a phone at the car:
+**The full photo-illustrated install guide** — 13 steps, wiring polarity, the
+drill-angle warning that trips people up, and the beam-aiming procedure — is
+easiest to follow on a phone at the car:
 https://www.smithtronic.com/shop/auxlightkit/installguide/
 (It is also attached here as a PDF if you would rather have it offline.)
 
@@ -63,8 +78,8 @@ whatever light you want to mount. The Fusion 360 source is in the GitHub repo to
 pre-facelift bumper has a different opening — these parts will not fit it.
 
 **What owners said (from the original product's public review page):**
-- "Used to run a light bar in the lower grill area but this kit made it look more
-  like a factory option." — Chris
+- "Used to run a 18-inch light bar in the lower grill area but this kit made it
+  look more like a factory option." — Chris
 - "This is the best fog light design for the SG9 sports bumper... I had to order
   another set for my automatic 07 FXT." — Joe
 - "These lights give the car a new character, sharper and more futuristic. They

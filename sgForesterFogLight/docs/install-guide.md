@@ -18,9 +18,10 @@ preparing self-printed parts.
 
 See the [bill of materials](bom.md) for the complete list with part numbers and the
 [print settings](print-settings.md) for producing the four printed parts. In short:
-the four printed parts, 12 brass M3 heat-set inserts, 12 M3 stainless button-head
-bolts, the OEM Subaru fog light relay and switch, a pair of lights meeting the size
-limits in step 2, and a 9005 male connector.
+the four printed parts, 12 brass M3 heat-set inserts, 12 M3 × 25 mm button-head
+bolts (stainless or black-oxide — see the BOM), the OEM Subaru fog light relay and
+switch, a pair of lights meeting the size limits in step 2, and two 9005 male
+connectors (one per light).
 
 **Factory relay — Subaru [82501AE03A](https://www.amazon.com/dp/B00IW33M5W) (not printed, required):**
 
@@ -30,9 +31,9 @@ limits in step 2, and a 9005 male connector.
 
 ![Fog light switch](images/parts_fog_switch.webp)
 
-**The printed kit (housings + retainers + hardware):**
+**The printed housings** (retainers and hardware are itemized in the [BOM](bom.md)):
 
-![The kit](images/parts_diy_kit.png)
+![The printed housings](images/parts_diy_kit.png)
 
 **Tools:** wire cutters/strippers · soldering iron and solder · heat shrink ·
 2.5 mm Allen key · 4 mm drill bit and drill · bumper clip removal tool or flathead
@@ -111,6 +112,12 @@ pattern would.)
 ![Relay position](images/step03_relay_position.png)
 ![Relay panel](images/step03_relay_panel.jpg)
 
+> **JDM / RHD Foresters:** the fuse and relay layout differs from the USDM panel
+> shown above. For reference, the JDM fuse-box lid maps the fog lamp circuit
+> (フォグランプ) to a 15 A fuse:
+>
+> ![JDM fuse map](images/jdm_fuse_map.jpg)
+
 ## 4. Install the factory fog light switch
 
 - Just above the fuse panel, find the switch panel with blank covers.
@@ -136,10 +143,12 @@ pattern would.)
 ## 6. Test before you drill
 
 - Plug the light into the factory fog light harness connector (one correct
-  orientation only).
+  orientation only) — the annotated photo below shows which way it seats.
 
 ![Plug in the light](images/step06_plug_light_1.jpg)
 ![Connector detail](images/step06_plug_light_2.jpg)
+![Connector orientation, annotated](images/connector_orientation.jpg)
+![OEM connector with the adapter pigtail](images/oem_connector_adapter.jpg)
 
 - Rest the light somewhere safe, turn on the ignition with headlights on, and
   press the fog switch.
@@ -185,6 +194,7 @@ pattern would.)
 
 ![Retainer in place](images/step09_retainer_place.jpg)
 ![Check alignment](images/step09_alignment_check.jpg)
+![Retainer mounted, seen from behind the bumper](images/retainer_mounted.jpg)
 
 ## 10. Secure the housing
 

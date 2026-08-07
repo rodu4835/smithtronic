@@ -61,6 +61,13 @@ plates (plate 1 housings, plate 2 retainers) with the same profile as above on a
 textured PEI plate at 90 °C (ASA) / 65 °C (PLA, 220 °C nozzle). The retainers carry
 per-object overrides (0.16 mm layer, 100 % infill) — keep those if you rearrange.
 
+## Software versions
+
+The projects were saved with Bambu Studio **2.2–2.3** (the housings plate with
+2.3.0) — use **2.3 or newer** to open all of them. The PLA project is saved
+against a **P1P** printer profile; on a P1S just accept the printer prompt or
+re-select your machine — the settings carry over.
+
 ## A note on setting names
 
 These values are transcribed from the project files. Where Bambu Studio's saved
@@ -76,4 +83,5 @@ name — the infill pattern is stored as `zig-zag` in the file but appears as
 - Supports in the projects are **manually painted** (snug/tree-free "normal" type).
   If you can't reproduce that, support the flange lip and the overhung rim only;
   a blanket 15° threshold without painting will bury the part.
-- The projects were saved with Bambu Studio 2.2 — older versions may not open them.
+- The projects were saved with Bambu Studio 2.2–2.3 — use 2.3 or newer to open all
+  of them (see Software versions above).
