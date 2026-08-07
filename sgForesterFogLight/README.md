@@ -76,4 +76,5 @@ local regulations for auxiliary lighting.
 are used with their owners' permission and are **not** covered by the project
 license — see [CREDITS](gallery/community/CREDITS.md).
 
-Contact: ron@smithtronic.com · [smithtronic.com](https://www.smithtronic.com)
+Contact: ron@smithtronic.com · Product page and illustrated install guide:
+[smithtronic.com](https://www.smithtronic.com/shop/auxlightkit/)
