@@ -37,21 +37,38 @@ The only copies of the install instructions were live pages on smithtronic.com
 both install guides (assembled + DIY), both shop pages, homepage, 111 images.
 CP3 sources its content from this archive.
 
-## CP2 — Geometry (in progress)
+## CP2 — Geometry ✅ (2026-08-06)
 
-Goal: canonical, sanitized model files in `models/`.
+Canonical geometry = the meshes embedded in the **production print projects**
+(what customers actually received); the FINAL_2 STLs they were sliced from are
+lost (another machine's Downloads folder).
 
-- Canonical geometry = the meshes embedded in the **production print projects**
-  (`printing\MAIN HOUSINGs…3mf`, `MAIN RETAINERs…3mf`) — these are what shipped.
-  The FINAL_2 STLs they were sliced from are lost (another machine's Downloads).
-- Extract the four meshes → `models/stl/` as `housing_left/right.stl`,
-  `retainer_left/right.stl`; establish Driver/Passenger ↔ LEFT/RIGHT mapping by
-  geometric comparison against the v8-named exports (`All_ASA.3mf`, plain exports).
-- Sanitize published 3MFs: strip Bambu account DesignerUserId + local Windows
-  paths; fill Title/Designer/License metadata.
-- Copy Fusion source `SGForesterFogLight v9.f3z` → `models/cad/`.
-- *Needs Ron (optional, any time)*: open v9.f3z in Fusion — confirm v9 didn't
-  change geometry after the v8 exports; export STEP for remixers.
+**Produced**
+- `models/stl/`: `housing_left/right.stl`, `retainer_left/right.stl` — extracted
+  losslessly from `printing\MAIN HOUSINGs…3mf` / `MAIN RETAINERs…3mf` (binary STL,
+  byte-count-verified against triangle counts).
+- `models/3mf/`: `all_parts_ASA/PLA.3mf` (4-part projects with full print
+  profiles), `plate_housings_ASA.3mf` + `plate_retainers_ASA.3mf` (production
+  plates: 45° housing orientation, manual supports, proven settings). All four
+  sanitized: Bambu account DesignerUserId removed, local Windows paths stripped
+  to basenames, Title/Designer/Description/License metadata filled, objects
+  renamed to left/right. Verified: geometry bit-identical, zero personal strings,
+  zero dangling internal references (entry renames were required — first sanitize
+  pass broke `p:path`/`.rels` references; caught by integrity check, fixed).
+- `models/cad/SGForesterFogLight_v9.f3z` — Fusion 360 source (57 MB).
+
+**Findings (evidence, not assumption)**
+- **Driver = LEFT, Passenger = RIGHT.** The retainers are not mirror-identical
+  (13,352 vs 16,114 triangles — per-side embossed text), and the production
+  "Driver" retainer matches `RETAINER_LEFT` exactly (triangles, area, volume).
+  Housing surface areas (51,167 vs 51,185 mm²) pair the same way.
+- **v8 vs FINAL_2**: retainers unchanged from the v8 exports; production housings
+  are a finer retessellation (~68.6k vs ~64.9k triangles) with geometry equal to
+  within 0.003% — consistent with a re-export (plausibly v9), not a redesign.
+
+**Open (Ron, optional, any time)**
+- Open v9.f3z in Fusion: confirm v9 housing = shipped geometry; export STEP to
+  `models/cad/` for remixers.
 
 ## CP3 — Documentation (planned)
 
