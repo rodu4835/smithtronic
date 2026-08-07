@@ -37,9 +37,9 @@ body below its divider).
 ## Publish paths
 
 - **API path:** create an app while logged in at thingiverse.com/developers →
-  paste the App Token into the Claude session → the publish script creates the
-  thing, uploads files/images, sets tags + license, publishes. Token is
-  password-equivalent; delete the app afterward.
+  run `publish_thing.py` with the App Token → it creates the thing, uploads
+  files/images, sets tags + license, publishes. The token is password-equivalent;
+  delete the app afterward.
 - **Manual path:** thingiverse.com → Create → Upload a Thing → drag the files and
   images above in order → paste title/description/tags → set license + category →
   Publish.
