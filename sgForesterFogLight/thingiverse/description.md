@@ -21,6 +21,10 @@ install with adjustable beam aim. Designed and sold as a kit by SMITHTRONIC in
   (take 6 brass M3 heat-set inserts each; embossed with side + "Towards Engine"
   orientation marks)
 
+Production housings were finished the old-fashioned way — sanded, high-build
+primer, UV-resistant satin black — which is where the factory look comes from;
+the full process is in the repo's finishing guide.
+
 The Bambu Studio project files (.3mf) carry the exact production print settings,
 orientation, and painted supports. Text version: housings 0.08 mm / 4 walls / 60%
 infill / tilted 45°; retainers 0.16 mm / 100% infill; ASA at 260C, bed 90-100C,

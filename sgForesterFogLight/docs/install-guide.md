@@ -42,6 +42,9 @@ needs for bracket assembly.
 ## 0. Prepare your printed parts *(new for self-printers — sold kits came assembled)*
 
 - Print the four parts per the [print settings](print-settings.md).
+- **Finish the housings** (sand → high-build primer → UV-resistant satin black)
+  per the [finishing guide](finishing.md) — this is how production kits got their
+  smooth factory look. Do it **before** installing inserts and hardware.
 - **Install the heat-set inserts:** each retainer takes 6 brass M3 inserts. Seat
   them into the hole bosses on the face that will point **toward the engine** — the
   retainers are embossed with orientation text ("Towards Engine") to keep this
@@ -77,9 +80,20 @@ pattern would.)
   bracket's nut (and lock washer) — light pointed forward, large-radius curve
   toward the front. Optional: blue Loctite on the threads, but **keep Loctite off
   the printed plastic — it attacks it over time**.
-- **Solder the 9005 connector:** slide on heat shrink first. Polarity on the car's
-  harness: **white = positive (+), black = ground (−)**. Solder light-positive to
-  white, light-negative to black; seal the joints with heat shrink.
+> **Order matters:** the 9005 connector will not fit through the housing's wire
+> hole. Feed the light's bare cable **through the housing first** (it happens as
+> part of mounting the bracket, above) — and only then solder the connector on.
+> If you solder first, you'll be cutting it back off.
+
+- **Solder the 9005 connector** (with the cable already through the housing):
+  1. Slide one larger heat-shrink sleeve over the cable pair, and a small sleeve
+     over each individual wire.
+  2. Twist and tin the stripped ends of both the light's wires and the 9005
+     pigtail's wires.
+  3. Polarity on the car's harness: **white = positive (+), black = ground (−)**.
+     Solder light-positive to white, light-negative to black.
+  4. Shrink the small sleeves over each joint, then the larger sleeve over both —
+     the joints live behind the bumper in road spray, so seal them well.
 
 ![Soldered connector](images/step02_solder_connector.jpg)
 

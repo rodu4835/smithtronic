@@ -18,9 +18,31 @@ orientation mark, so print all four. See [print settings](print-settings.md).
 | Item | Qty | Notes |
 |---|---|---|
 | Brass M3 heat-set inserts | 12 | 6 per retainer |
-| M3 × 25 mm stainless button-head bolts | 12 | 6 per side, 2.5 mm Allen (what production kits shipped) |
+| M3 × 25 mm button-head bolts | 12 | 6 per side, 2.5 mm Allen — stainless or black-oxide alloy (see below) |
 | Blue threadlocker (optional) | — | bracket threads only — **keep it off the printed plastic** |
-| Heat shrink + solder | — | for the 9005 connector splice |
+| Heat shrink assortment + rosin-core solder | — | for the 9005 connector splice (one larger sleeve for the cable pair, small sleeves per wire) |
+
+## The exact parts used in the original kits (2025 production)
+
+These are the products SMITHTRONIC actually bought for production kits — listed
+by full product title so you can find them (or an equivalent) yourself:
+
+| Role | Product | ~Price |
+|---|---|---|
+| Lights | **AKD Part Amber LED Pods, 3 Inch CREE LED Fog Lights 40W Spot** (sold as a 2-pack for trucks/UTV/ATV) | ~$33 / pair |
+| Connectors | **TOMALL 9005 9006 Male Socket Connector** retrofit wiring pigtail — [Amazon listing](https://www.amazon.com/TOMALL-Connector-Headlights-Retrofit-Extension/dp/B07CVH3R75) | ~$7 |
+| Bolts | **iexcell M3 × 25 mm alloy steel 10.9 button head, black oxide finish** (100-pc kit) | ~$8 |
+
+A note on the bolts: the published spec said stainless; production batches used
+the black-oxide alloy kit above (black hardware disappears nicely against the
+black parts). Black oxide is not as corrosion-proof as stainless in road spray —
+either works, pick your trade-off.
+
+## Finishing supplies (production process — see [finishing guide](finishing.md))
+
+- Sandpaper: ~220 and 400 grit (400 used wet)
+- High-build (filler) primer, rattle can
+- UV-resistant **satin black** top coat, rattle can
 
 ## OEM Subaru parts (not printed, required)
 

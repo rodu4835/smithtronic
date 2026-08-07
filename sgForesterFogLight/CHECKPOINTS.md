@@ -145,4 +145,30 @@ the GitHub repo public, delete the Thingiverse app/token.
 ## CP7 — Optional extras (parked)
 
 Kit cards re-QR'd to the new home; companion SG parts as future listings; vented
-headlight cap project.
+headlight cap project (its shop copy, photos, and blog post are archived and
+ready).
+
+### CP3/CP5 addendum (2026-08-06, from Ron's review)
+
+- README rebuilt as a product-page **showcase** mirroring the original
+  auxlightkit shop page (tagline, features, owner quotes, FAQ highlights).
+- BOM now lists the **exact production purchases** from the Feb 2025 receipts
+  (AKD Part 3" 40W amber spot pods; TOMALL 9005/9006 pigtail; iexcell M3×25
+  black-oxide bolt kit) — product titles only, no order/PII. Discrepancy
+  documented: guides said stainless bolts, production used black-oxide alloy.
+- New `docs/finishing.md`: the production sand → high-build primer →
+  UV-resistant satin black process (per Ron; no paint receipts exist in the
+  archive, so products are described generically).
+- Install guide step 2: explicit **connector-won't-fit-through-housing** warning
+  (feed cable through housing first, then solder) + numbered soldering procedure.
+
+## CP8 — Website succession (planned)
+
+Ron keeps the smithtronic.com domain but stops paying Framer. Plan: rebuild the
+site as a faithful **static replica** (same look: white pages, dark rounded
+cards, cyan accents) from the complete CP1 site archive; host free on **GitHub
+Pages** with the custom domain (Ron updates DNS at his registrar; HTTPS is
+automatic); then repurpose shop pages into project-reference pages linking files
+on Thingiverse + GitHub. Framer can be cancelled after cutover. Pages: home,
+products (aux kit + headlight caps), reviews, projects (index + posts), contact,
+legal.
