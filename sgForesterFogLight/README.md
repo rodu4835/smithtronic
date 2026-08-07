@@ -14,8 +14,10 @@ $150 DIY). Now open source: print it, build it, remix it.
 
 - **Perfect fit** — seamlessly integrates into the Sports bumper fog light holes;
   looks like it came from the factory.
-- **Factory wiring** — uses the OEM fog light relay (82501AE03A) and dash switch
-  (83001SA000); the harness is already in your car.
+- **Factory wiring** — uses the OEM fog light relay
+  ([82501AE03A](https://www.amazon.com/dp/B00IW33M5W)) and dash switch
+  ([83001SA000](https://www.subaruparts.com/oem-parts/subaru-fog-lamp-switch-83001sa000));
+  the harness is already in your car.
 - **Adjustable beam** — vertical and horizontal articulation to aim the light
   exactly where you want it.
 - **Bring your own light** — any light on a single through-bolt bracket up to

@@ -54,8 +54,8 @@ either works, pick your trade-off.
 
 | Item | Part number | Notes |
 |---|---|---|
-| Fog light relay | **82501AE03A** | plugs into the cabin fuse/relay panel |
-| Fog light switch | **83001SA000** | factory dash switch, plugs into existing harness connector |
+| Fog light relay | **[82501AE03A](https://www.amazon.com/dp/B00IW33M5W)** | plugs into the cabin fuse/relay panel |
+| Fog light switch | **[83001SA000](https://www.subaruparts.com/oem-parts/subaru-fog-lamp-switch-83001sa000)** | factory dash switch, plugs into existing harness connector |
 
 Both are plug-in parts — the car's harness already has the wiring. Available from
 Subaru parts counters, subaruparts.com, Amazon, or a junkyard SG.
@@ -65,7 +65,7 @@ Subaru parts counters, subaruparts.com, Amazon, or a junkyard SG.
 | Item | Spec | Notes |
 |---|---|---|
 | Auxiliary lights, pair | single through-bolt bracket, bracket ≤ **64.5 mm high × 23 mm wide** | production kits used 3-inch dual-row amber LED **spot** pods (~40 W); see the [dimension diagram](images/bracket_dimensions.png) |
-| 9005 male connectors | 2 | two-wire pigtail; splices to your light's leads — harness polarity: **white = +, black = −** |
+| 9005 male connectors | 2 | two-wire pigtail ([the one production used](https://www.amazon.com/dp/B07CVH3R75)); splices to your light's leads — harness polarity: **white = +, black = −** |
 
 ## Vehicle fitment
 

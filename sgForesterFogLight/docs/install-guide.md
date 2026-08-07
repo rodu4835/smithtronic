@@ -22,11 +22,11 @@ the four printed parts, 12 brass M3 heat-set inserts, 12 M3 stainless button-hea
 bolts, the OEM Subaru fog light relay and switch, a pair of lights meeting the size
 limits in step 2, and a 9005 male connector.
 
-**Factory relay — Subaru 82501AE03A (not printed, required):**
+**Factory relay — Subaru [82501AE03A](https://www.amazon.com/dp/B00IW33M5W) (not printed, required):**
 
 ![Fog light relay](images/parts_relay.jpg)
 
-**Factory fog light switch — Subaru 83001SA000 (not printed, required):**
+**Factory fog light switch — Subaru [83001SA000](https://www.subaruparts.com/oem-parts/subaru-fog-lamp-switch-83001sa000) (not printed, required):**
 
 ![Fog light switch](images/parts_fog_switch.webp)
 
