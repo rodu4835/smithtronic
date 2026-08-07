@@ -43,10 +43,17 @@ ASA (or similar UV/heat-stable material) for the real thing.
 **Install:** wire the lights to 9005 connectors, drop the relay and factory switch
 into the cabin panel, pop the bumper's fog covers, drill 6x 4 mm holes using the
 housing as a template, and clamp everything down with the retainer from behind.
-2-3 hours with hand tools. The full illustrated 13-step guide (with wiring
-polarity, drill-angle warnings, and beam-aiming procedure) lives in the GitHub
-repo: https://github.com/rodu4835/smithtronic (sgForesterFogLight) — along with
-the Fusion 360 source for remixing.
+2-3 hours with hand tools.
+
+**The full illustrated install guide** — 13 steps with photos for every one, wiring
+polarity, the drill-angle warning that trips people up, and the beam-aiming
+procedure — is easiest to follow on a phone at the car:
+https://www.smithtronic.com/shop/auxlightkit/installguide/
+(It is also attached here as a PDF if you would rather have it offline.)
+
+Print settings, the full bill of materials, and the sand-and-paint finishing
+process I used on the production kits are documented in the GitHub repo:
+https://github.com/rodu4835/smithtronic
 
 **Remixing:** a STEP file of the real solid model is included, not just meshes — open
 it in Fusion, SolidWorks, FreeCAD or Onshape and reshape the light pocket around

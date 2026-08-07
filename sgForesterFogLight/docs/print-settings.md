@@ -23,7 +23,7 @@ Production project: [`plate_housings_ASA.3mf`](../models/3mf/plate_housings_ASA.
 | Layer height | **0.08 mm** (first layer 0.2 mm) |
 | Walls | 4 |
 | Top / bottom shells | 9 / 7 |
-| Infill | 60 % zig-zag |
+| Infill | 60 %, **Rectilinear** |
 | Nozzle temp | 260 °C (ASA) |
 | Bed | 100 °C, Engineering Plate |
 | Supports | manual, snug style, 15° threshold |
@@ -43,7 +43,7 @@ Production project: [`plate_retainers_ASA.3mf`](../models/3mf/plate_retainers_AS
 | Layer height | **0.16 mm** (first layer 0.2 mm) |
 | Walls | 4 |
 | Top / bottom shells | 6 / 4 |
-| Infill | **100 %** zig-zag |
+| Infill | **100 %**, **Rectilinear** |
 | Nozzle temp | 260 °C (ASA) |
 | Bed | 90 °C, High Temp Plate |
 | Supports | manual, snug style, 25° threshold |
@@ -60,6 +60,13 @@ and carry the M3 heat-set inserts.
 plates (plate 1 housings, plate 2 retainers) with the same profile as above on a
 textured PEI plate at 90 °C (ASA) / 65 °C (PLA, 220 °C nozzle). The retainers carry
 per-object overrides (0.16 mm layer, 100 % infill) — keep those if you rearrange.
+
+## A note on setting names
+
+These values are transcribed from the project files. Where Bambu Studio's saved
+config uses a different word than its own interface, the table gives the **interface**
+name — the infill pattern is stored as `zig-zag` in the file but appears as
+**Rectilinear** in the slicer, which is what you'll be looking for.
 
 ## Notes for non-Bambu slicers
 

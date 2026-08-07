@@ -77,21 +77,27 @@ def req(session, method, url, expect=(200, 201, 202), **kw):
     return res
 
 def upload(session, thing_id, path):
+    """Three-step upload: request a slot, POST the bytes to storage, then finalize.
+
+    The finalize URL comes back in fields['success_action_redirect']; the storage
+    endpoint answers 200 {"ok":"ok"} rather than redirecting, so read it from the
+    fields and fall back to a Location header if one is ever sent.
+    """
     name = os.path.basename(path)
     size_kb = os.path.getsize(path) // 1024
     print(f'  uploading {name} ({size_kb} KB) ... ', end='', flush=True)
     r = req(session, 'POST', f'/things/{thing_id}/files', json={'filename': name})
     info = r.json()
     action, fields = info['action'], info['fields']
+    finalize = fields.get('success_action_redirect')
     with open(path, 'rb') as f:
-        # S3 replies 303; do NOT follow it — its Location is the finalize URL
-        s3 = requests.post(action, data=fields, files={'file': (name, f)},
-                           allow_redirects=False, timeout=600)
-    if s3.status_code not in (201, 204, 303):
-        die(f'S3 upload of {name} failed', s3)
-    finalize = s3.headers.get('Location')
+        up = requests.post(action, data=fields, files={'file': (name, f)},
+                           allow_redirects=False, timeout=900)
+    if up.status_code not in (200, 201, 204, 303):
+        die(f'storage upload of {name} failed', up)
+    finalize = up.headers.get('Location') or finalize
     if not finalize:
-        die(f'no finalize Location for {name}', s3)
+        die(f'no finalize URL for {name}', up)
     req(session, 'POST', finalize)
     print('done')
 
@@ -100,6 +106,7 @@ def main():
     ap.add_argument('--token', default=os.environ.get('THINGIVERSE_TOKEN'))
     ap.add_argument('--dry-run', action='store_true')
     ap.add_argument('--publish', action='store_true')
+    ap.add_argument('--thing-id', help='upload into an existing draft instead of creating one')
     args = ap.parse_args()
     if not args.token:
         die('no token (use --token or THINGIVERSE_TOKEN)')
@@ -126,21 +133,33 @@ def main():
         print('Dry run complete — token valid, no thing created.')
         return
 
-    r = req(s, 'POST', '/things/', json={
-        'name': TITLE, 'license': LICENSE, 'category': CATEGORY,
-        'description': desc, 'tags': TAGS, 'is_wip': False,
-    })
-    thing = r.json()
-    thing_id = thing['id']
-    print(f'Created thing {thing_id}: {thing.get("public_url")}')
+    if args.thing_id:
+        thing = req(s, 'GET', f'/things/{args.thing_id}').json()
+        thing_id = thing['id']
+        existing = {f['name'] for f in req(s, 'GET', f'/things/{thing_id}/files').json()}
+        print(f'Using existing thing {thing_id}: {thing.get("public_url")}')
+        if existing:
+            print(f'  already uploaded ({len(existing)}): {", ".join(sorted(existing))}')
+    else:
+        r = req(s, 'POST', '/things/', json={
+            'name': TITLE, 'license': LICENSE, 'category': CATEGORY,
+            'description': desc, 'tags': TAGS, 'is_wip': False,
+        })
+        thing = r.json()
+        thing_id = thing['id']
+        existing = set()
+        print(f'Created thing {thing_id}: {thing.get("public_url")}')
 
     for rel in IMAGES + FILES:
         p = os.path.join(PROJ, rel)
-        if os.path.exists(p):
-            upload(s, thing_id, p)
-            time.sleep(1)
-        else:
+        if not os.path.exists(p):
             print(f'  skipped missing {rel}')
+            continue
+        if os.path.basename(p) in existing:
+            print(f'  already present, skipping {os.path.basename(p)}')
+            continue
+        upload(s, thing_id, p)
+        time.sleep(1)
 
     if args.publish:
         req(s, 'POST', f'/things/{thing_id}/publish')
