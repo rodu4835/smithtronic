@@ -35,15 +35,19 @@ prepared 2026-08-07/08.
   basenames. Post-checks: geometry unchanged, zero personal strings, zero
   dangling internal references.
 - Photo verified EXIF-free after strip-on-copy.
-- Mounting holes measured from the mesh: one size class, **~Ø7.5 mm recesses**.
-  The exact production fasteners are not recorded anywhere on disk, so the BOM
-  describes the holes and defers fastener choice rather than guessing.
+
+## Corrected during review
+
+- An automated mesh scan flagged ~Ø7.5 mm circular vertex rings, initially read
+  as "mounting recesses." **Ron corrected this: the model is deliberately solid
+  with no mounting holes at all** — builders drill to suit their own bolts (M5
+  is plenty). The rings were a misread of other curved features. Lesson noted:
+  a geometry detector proves a shape exists, not what it's for.
 
 ## Known gaps
 
-- **Exact fastener spec unknown** — the post says "four small bolts" (one per
-  side, two in the rear); the BOM names the hole size instead of a bolt part
-  number until Ron confirms what the build used.
 - **No print-time/filament figures** — the project was saved unsliced.
+- The design is intentionally simple and may see future revisions (e.g.,
+  modeled mounting holes).
 - Thing 7393048 created as an **unpublished draft** (files + image verified
   uploaded); category must be set to Automotive in the web UI after publishing.

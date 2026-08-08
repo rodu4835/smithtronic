@@ -11,9 +11,12 @@ identical, but unverified.
 1. **Print the shelf** per the [print settings](print-settings.md) and test-fit it
    in the upper rear of the glove compartment — it sits high so the space below
    stays usable.
-2. **Mark and fasten four small bolts: one on each side, two in the rear.** The
-   side walls and rear wall of the glove box are thin plastic — drill carefully
-   and go finger-tight; the shelf carries documents, not cargo.
+2. **Drill and fasten four small bolts: one on each side, two in the rear.** The
+   shelf prints **solid — no pre-modeled holes** — so mark where the bolts suit
+   your install and drill through shelf and wall together. M5 is plenty. The
+   glove box walls are thin plastic — drill carefully and go finger-tight; the
+   shelf carries documents, not cargo. (Prefer pre-modeled holes? The
+   [CAD source](../models/cad/) is included — add them and print.)
 3. **Load it.** The shelf was sized around the owner's manual pouch plus
    insurance/registration paperwork, keeping them flat and reachable without
    digging.

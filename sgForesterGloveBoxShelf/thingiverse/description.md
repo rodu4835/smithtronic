@@ -24,15 +24,15 @@ manually painted supports already set up in the included production project:
 Full transcription for other slicers is in print-settings.md on GitHub.
 
 **What else you need:**
-- 4 small bolts (one per side, two in the rear) threading into the glove box
-  walls — pick to suit; the mounting points have ~7.5 mm recesses, and the CAD
-  source (STEP + SolidWorks) is included if you'd rather resize the holes around
-  your hardware
+- 4 small bolts (one per side, two in the rear) — your choice, M5 is plenty.
+  **The shelf is a solid model with no pre-made mounting holes**: drill where
+  the bolts suit your install, or use the included CAD source (STEP +
+  SolidWorks) to model holes in before printing.
 
 **Install:**
 1. Test-fit the shelf high in the rear of the glove compartment
-2. Fasten the four bolts — the walls are thin plastic, so drill carefully and go
-   finger-tight
+2. Drill through shelf and wall together, then fasten the four bolts — the
+   walls are thin plastic, so drill carefully and go finger-tight
 3. Load the owner's manual and paperwork flat on top; everything else goes
    underneath
 

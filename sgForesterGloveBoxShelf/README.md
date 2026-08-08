@@ -18,7 +18,8 @@ remix it.
 - **Documents up top** — the owner's manual and paperwork lie flat and reachable;
   everything else lives underneath instead of on top of them.
 - **One piece, four bolts** — no brackets, no adhesive; one bolt each side and
-  two in the rear, threading into the glove box walls.
+  two in the rear. The shelf prints solid — drill holes where your bolts suit
+  (M5 is plenty), or model them into the included CAD first.
 - **ASA construction** — dashboards bake in the sun; PLA would sag here.
 
 ## What's here
@@ -42,10 +43,11 @@ details in [`docs/print-settings.md`](docs/print-settings.md).
 
 ## Install it
 
-Three steps: test-fit high in the rear of the compartment, fasten four small
-bolts (one per side, two in the rear — the walls are thin plastic, so go
+Three steps: test-fit high in the rear of the compartment, drill and fasten four
+small bolts (one per side, two in the rear — the walls are thin plastic, so go
 finger-tight), and load your documents flat on top. Details in
-[`docs/install-guide.md`](docs/install-guide.md).
+[`docs/install-guide.md`](docs/install-guide.md). This design may see future
+revisions — it's the straightforward one of the bunch, on purpose.
 
 **Fitment:** built and verified in a 2007 Forester XT; other SG-generation
 Foresters are likely identical but unverified.

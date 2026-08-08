@@ -3,10 +3,10 @@
 | Item | Qty | Notes |
 |---|---|---|
 | Printed shelf | 1 | One piece, 271 × 133 × 45 mm; ASA recommended ([print settings](print-settings.md)) |
-| Small bolts | 4 | One per side, two in the rear, threading into the glove box walls |
+| Small bolts | 4 | Your choice — **M5 is plenty**; one per side, two in the rear |
 
-Pick fasteners to suit what you have — the mounting points are modeled with
-roughly 7.5 mm recesses, and the glove box walls are thin plastic, so small
-bolts or coarse-thread screws with washer-style heads work best. The CAD source
-in [`models/cad/`](../models/cad/) is included if you'd rather resize the holes
-around specific hardware.
+**The shelf ships as a solid model — there are no mounting holes in it.** Drill
+where the bolts suit your install (one each side, two in the rear is how the
+original was mounted) and fit whatever hardware looks good. The CAD source in
+[`models/cad/`](../models/cad/) is there if you'd rather model holes in before
+printing.
