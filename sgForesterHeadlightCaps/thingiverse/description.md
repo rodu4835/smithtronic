@@ -20,6 +20,8 @@ and carry an external wire slot so the voltage box rides outside the housing.
 **What you print (ASA strongly recommended):**
 - 2x headlight_cap — the same part fits both sides of the car; the plate project
   prints the pair in one go
+- The CAD source (STEP) is included too — remix the dome or louvers around your
+  own bulb in Fusion, SolidWorks, FreeCAD, or Onshape
 
 ASA because the caps live over hot bulbs in the engine bay. The production
 profile is in the 3MF and in print-settings.md on GitHub: 0.08 mm layers, 4

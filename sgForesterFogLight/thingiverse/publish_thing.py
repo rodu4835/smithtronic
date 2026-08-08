@@ -140,6 +140,7 @@ def main():
         thing = req(s, 'GET', f'/things/{args.thing_id}').json()
         thing_id = thing['id']
         existing = {f['name'] for f in req(s, 'GET', f'/things/{thing_id}/files').json()}
+        existing |= {i['name'] for i in req(s, 'GET', f'/things/{thing_id}/images').json()}
         print(f'Using existing thing {thing_id}: {thing.get("public_url")}')
         if existing:
             print(f'  already uploaded ({len(existing)}): {", ".join(sorted(existing))}')

@@ -35,12 +35,16 @@ in the same spirit as the fog light kit's CHECKPOINTS.md. Release prepared
 
 ## Known gaps
 
-- **No CAD source.** No `.f3d`/`.f3z`/`.step` for the cap exists on disk — the
-  design lives in Fusion 360's cloud. Export and add to `models/cad/` when
-  available.
 - **No print-time/filament figures.** The production 3MF was saved unsliced, so
   no G-code estimate is recorded anywhere; the docs deliberately don't claim
   one.
-- The Thingiverse listing (thing 7392999) was created as an unpublished draft
-  with all files and images verified uploaded; category must be set to
-  Automotive in the web UI after publishing (the API ignores it).
+
+## Follow-ups resolved
+
+- **CAD source added 2026-08-07:** `subieHeadlightCap_Vented.step` exported
+  fresh from Fusion 360 (AP214, single solid). Verified against the production
+  mesh: Z height matches exactly (27.80 mm); X/Y point extents read ~82.9 mm
+  against the mesh's Ø84.4 mm because STEP arc extremes fall between vertex
+  points — consistent, not a discrepancy.
+- The Thingiverse listing (thing 7392999) was reviewed and published; category
+  set in the web UI (the API ignores category on create/patch).

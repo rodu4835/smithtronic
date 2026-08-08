@@ -31,13 +31,12 @@ remix it.
 |---|---|
 | [`models/stl/headlight_cap.stl`](models/stl/headlight_cap.stl) | The cap (Ø84.4 mm × 27.8 mm), exact production geometry |
 | [`models/3mf/cap_pair_ASA.3mf`](models/3mf/cap_pair_ASA.3mf) | Production Bambu Studio project — both caps on one plate, all settings and painted supports included |
+| [`models/cad/subieHeadlightCap_Vented.step`](models/cad/subieHeadlightCap_Vented.step) | CAD source (STEP) — opens in Fusion, SolidWorks, FreeCAD, Onshape; remix the dome or louvers around your own bulb |
 | [`docs/print-settings.md`](docs/print-settings.md) | The production print profile, transcribed for any slicer |
 | [`docs/install-guide.md`](docs/install-guide.md) | Step-by-step install |
 | [`docs/bom.md`](docs/bom.md) | The (very short) bill of materials |
 | [`gallery/`](gallery/) | Photos |
 | [`thingiverse/`](thingiverse/) | The Thingiverse listing source and publish tooling |
-
-No CAD source is included yet — the Fusion 360 export is planned to follow.
 
 ## Print it
 
